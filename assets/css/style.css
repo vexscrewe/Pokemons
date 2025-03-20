@@ -1,0 +1,39 @@
+*{
+    font-size: 18px;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    width: 100%;
+}
+
+header, #navbar{
+    display: flex;
+}
+
+header{
+    width: 100%;
+    justify-content: space-between;
+    border: solid 3px #0040ff;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 5%;
+}
+
+img{
+    width: 4%;
+}
+
+li{
+    list-style: none;
+}
+
+.navbar-item{
+    margin: 5px 20px;
+    padding: 5px 15px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
