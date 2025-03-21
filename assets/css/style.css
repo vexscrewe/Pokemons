@@ -5,6 +5,7 @@
 body{
     margin: 0;
     width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header, #navbar{
@@ -14,7 +15,6 @@ header, #navbar{
 header{
     width: 100%;
     justify-content: space-between;
-    border: solid 3px #0040ff;
     flex-direction: row;
     align-items: center;
     padding: 10px 5%;
@@ -39,10 +39,86 @@ a{
 }
 
 #banner{
-    background-image: url('/assets/images/banner1.webp');
+    background-image: url('/assets/images/banner5.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 80vh;
     border: solid 1x #000000;
+    display: flex;
+    align-items: center;
 
+}
+
+#banner-text{
+     margin-left: 15%;
+     width: 30%;
+     background-color: rgba(33, 240, 255, 0.1);
+     padding: 20px 60px;
+     padding-bottom: 60px;
+     border-radius: 30px;
+     text-align: center;
+}
+
+#banner h1{
+    margin-top: 10;
+    margin-bottom: 0;
+}
+
+#banner h1,
+#banner h1 span{
+    font-size: 2.2rem;
+}
+
+#banner h1 span{
+    display: block;
+}
+
+#banner-text p{ 
+    color: #5b5858;
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+#banner-text a{
+    background-color: #02a5b0;
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 6px;
+    border: solid 1px rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#tema{
+    text-align: center;
+    width: 100%;
+}
+
+#tipagem{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#tipagem img{
+    border: solid 5px  black;
+    width: 100%;
+}
+
+#p1{
+    background-image: url('/assets/images/backgroundFire.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ff0000;
+}
+
+#p2{
+    color: #0066ff;
+    background-color: #000000;
+}
+
+#p3{
+    color: #ffee00;
+    background-color: #000000;
 }
