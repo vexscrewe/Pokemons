@@ -114,11 +114,26 @@ a{
 }
 
 #p2{
+    background-image: url('/assets/images/backgroundWater.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #0066ff;
-    background-color: #000000;
 }
 
 #p3{
+    background-image: url('/assets/images/backgroundElec.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #ffee00;
-    background-color: #000000;
+}
+
+#Card1 h1{
+    text-align: center;
+    width: 100%;
+}
+
+#art1{
+    display: flex;
 }
