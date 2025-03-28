@@ -129,11 +129,111 @@ a{
     color: #ffee00;
 }
 
-#Card1 h1{
+.Card1{
+    border: solid 1px;
+    width: 100%;
+}
+
+.body1{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.Card1 h1{
+    text-align: center;
+}
+
+
+.art1, .Card1 div img{
+    width: 30%;
+}
+
+.art1{
+    text-align: center;
+}
+
+.Card1 a{
+    background-color: #02a5b0;
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 6px;
+    border: solid 1px rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+#Principal{
     text-align: center;
     width: 100%;
 }
 
-#art1{
+#Sub{
     display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+
+#tipagem img{
+    border: solid 5px  black;
+    width: 100%;
+}
+
+#Sub h1{
+    font-size: 20px;
+}
+
+#Sub div{
+    width: 25%;
+    text-align: center;
+}
+
+.icons{
+    font-size: 25px;
+}
+
+#Treinadores{
+    width: 100%;
+    background-color: hsl(209, 89%, 60%);
+}
+
+#titulo{
+    text-align: center;
+}
+
+#blocos{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    gap: 10px;
+    padding: 20px 0px;
+}
+
+#blocos div img{
+    width: 100%;
+}
+
+.subbloco{
+    width: 30%;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+footer{
+    text-align: center;
+    width: 100%;
+}
+
+#SubFooter{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+
+#Resumo{
+    text-align: justify;
 }
