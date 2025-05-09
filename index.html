@@ -11,6 +11,10 @@
     <header>
         <img src="assets/images/logo.png" alt="LogoPokemon">
 
+        <button id="menu-toggle" class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+
         <nav>
             <ul id="navbar">
                 <li><a href="#" class="navbar-item">Início</a></li>
@@ -37,19 +41,45 @@
     <section id="tema">
         <h1>Pokemons</h1>
         <p>Conheça um pouco dos diferentes tipos que existem</p>
-        <div  id="tipagem">
-            <div>
+
+        <div class="carousel-buttons">
+                <button id="btn-left">&#x2190;</button>
+                <button id="btn-right">&#x2192</button>
+        </div>
+
+        <div id="tipagem">
+            <div class="card">
                 <img src="assets/images/tipo_fogo.png" alt="pokemonFogo">
                 <p id="p1">Tipo fogo</p>
             </div>
-            <div>
+
+            <div class="card">
                 <img src="assets/images/tipo_agua.png" alt="pokemonAgua">
                 <p id="p2">Tipo água</p>
             </div>
-            <div>
+
+            <div class="card">
                 <img src="assets/images/tipo_eletrico.png" alt="pokemonElétrico">
                 <p id="p3">Tipo elétrico</p>
             </div>
+
+            <div class="card">
+                <img src="assets/images/tipo_fogo.png" alt="pokemonFogo">
+                <p id="p1">Tipo fogo</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/images/tipo_agua.png" alt="pokemonAgua">
+                <p id="p2">Tipo água</p>
+            </div>
+
+            <div class="card">
+                <img src="assets/images/tipo_eletrico.png" alt="pokemonElétrico">
+                <p id="p3">Tipo elétrico</p>
+            </div>
+
+
+
         </div>
     </section>
 
@@ -148,27 +178,51 @@
         </div>
     </section>
 
+    <footer id="sobre">
+            <div>
+                <img src="assets/images/logo.png" alt="">
+                <p>Ao lado temos alguns links úteis, não exite em nos contatar em
+                caso de dúvidas! 
+                </p>
+            </div>
+    
+            <div id="menu">
+                <h1>Lorem ipsom dolor</h1>
+    
+                <ul>
+                    <li>
+                        <a href="#">Inicio</a>
+                    </li>
+    
+                    <li>
+                        <a href="#">Agendamentos</a>
+                    </li>
+                    
+                    <li>
+                        <a href="#">Produtos</a>
+                    </li>
+    
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+    
+                    <li>
+                        <a href="#">Sobre</a>
+                    </li>
+                </ul>
+    
+            </div>
+               
+            <div id="contato">
+                 <h1>Contato</h1>
+                <p>(67) 99999-9999</p>
+                <p>contato@contato.com</p>
+            </div>
+        </footer>
+
     </main>
 
-    <footer>
-            <div id="SubFooter">
-                <div id="Resumo">
-                    <h1><i class="fa-solid fa-leaf icons"></i> Tipo Planta</h1>
-                    <p>Pokemons do tipo planta tem vantagem contra pokemons do tipo pedra, terra e água.
-                        Porém são fracos contra fogo, gelo, venenoso e voador.</p>
-                </div>
-                <div>
-                    <ul>
-                        
-                    </ul>
-                </div>
-                <div>
-                    <h1><i class="fa-solid fa-dragon icons"></i> Tipo Dragão</h1>
-                    <p>Pokemons do tipo dragão tem vantagem contra outros pokemons do tipo dragão.
-                        Porém são fracos contra gelo, fada e, consequentemente, dragão.</p>
-                </div>  
-            </div>
-    </footer>
+    <script src="assets/javascripts/script.js"></script>
 
 </body>
 </html>
